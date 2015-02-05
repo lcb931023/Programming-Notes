@@ -1,4 +1,4 @@
-## Classes
+# Classes
 Classes: expands the concept of Struct
 - Only Real difference: access privilege
 
