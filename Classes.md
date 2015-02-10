@@ -120,3 +120,25 @@ corresponding argument members
 
 - **Copy Assignment Operator**: Construct and Copy
 - **Move Assignment Operator**: Copy
+
+## Friend
+
+Friend functions are an extension of the
+class interface.
+
+Member functions are called like `foo.f();`
+
+Friend functions are called like `f();`
+
+#### Inheriting
+
+friend can not be virtual thus “no dynamic
+binding is possible”
+
+#### Virtual Friend Idiom
+
+Dynamic binding is possible through an
+intermediary function.
+To get the effect of a “virtual friend” the
+friend function should call a protected virtual
+member function
