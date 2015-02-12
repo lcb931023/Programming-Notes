@@ -17,7 +17,8 @@ public:
 int main(){
   std::shared_ptr<Base> base(new Base());
   base->DoSomething();
-  return 0; // When it gets to the end of scope, it calls the destructor of shared_ptr, which deletes the pointer.
+  return 0; 
+  // When it gets to the end of scope, it calls the destructor of shared_ptr, which deletes the pointer.
 }
 ```
 Internally, the shared_ptr is managing memory for you!
