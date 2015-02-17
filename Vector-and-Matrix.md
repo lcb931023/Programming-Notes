@@ -26,9 +26,7 @@ Vectors are great for all the operations for moving things around the screen.
 
 #### Normalizing Vectors
 
-Making a vector "*normal*" by setting its magnitude to 1
-
-	Why? Because 1 is easy to work with!
+Making a vector "*normal*" by setting its magnitude to 1, for ease of use
 
 #### Addition
 
@@ -58,5 +56,31 @@ Multiply / Divide the magnitude by the scalar
 
 ![Matrix](http://static3.businessinsider.com/image/5076d50becad045713000011/master-ita-softwares-matrix-to-book-your-next-dream-trip.jpg)
 
-
 ...No.
+
+## What?
+
+Rectangular array of numbers / symbols / expressions.
+
+### Anatomy
+
+Arranged in *rows* and *columns*, like a bi-dimentional array
+Individual items are called *entries*.
+```
+// e.g. identity matrix
+/1 0 0\
+|0 1 0|
+\0 0 1/
+```
+## Why Do I Care?
+
+Because **Vector Space**: Basically the space in which your vectors live and can operate.
+AKA *Coordinate System*.
+
+## Operations
+
+#### Addition
+
+#### Subtraction
+
+#### Multiplication
