@@ -10,7 +10,7 @@ float GetMaxFloat(float a, float b)
 {
   return (a>b?a:b);
 }
-int GetMaxFloat(int a, int b)
+int GetMaxInt(int a, int b)
 {
   return (a>b?a:b);
 }
