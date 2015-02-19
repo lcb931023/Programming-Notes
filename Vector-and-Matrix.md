@@ -84,3 +84,67 @@ AKA *Coordinate System*.
 #### Subtraction
 
 #### Multiplication
+
+###### ^[TODO]
+
+
+
+
+
+# Vector To Matrix
+
+To use matrix operation on vectors, We can represent the vector ( x, y ) in the matrix form:
+```
+[𝑥]
+[𝑦]
+// A 1 by 2 matrix
+```
+### 2D to 3D
+```
+[1 0] * [1]
+[0 1]   [1]
+is basically
+[1 0 0]   [1]
+[0 1 0] * [1]
+[0 0 1]   [0]
+
+```
+
+## Operation
+```
+[3] + [2] = [5]
+[2] + [2] = [4]
+[0] + [0] = [0]
+```
+
+### Multiplication Vs Addition
+
+Need a multiplication to have linear combination
+
+#### Messing with Diagonals
+```
+A(1,1) // starting point
+B // translation
+A'(2,2) // result
+
+A + B = A'
+A + B – A = A’ – A
+A – A + B = A’ – A
+B = A’ – A
+
+B = [2] - [1]
+		[2] - [1]
+
+B = [1]
+		[1]
+```
+Modifying the diagonal of the matrix will not give
+us the translation, but the SCALING.
+
+How about Scaling Rotation and Translation?
+
+[TODO]
+
+### Rotations
+
+// These damn matrixes. I'll need to use LaTeX for this section.
